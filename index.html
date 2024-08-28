@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym Website</title>
+    <link rel="stylesheet" href="frontpage.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+           
+            <h1>BEND THE BAR</h1>
+            <nav>
+                <ul>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to Bend The Bar</h2>
+            <p>Your journey to fitness starts here.</p>
+        </div>
+    </section>
+
+    <section id="classes" class="section">
+        <div class="container">
+            <h2>Our Classes</h2>
+            <div class="class">
+                <h3>Yoga Class</h3>
+                <p>Join our relaxing yoga sessions.</p>
+            </div>
+            <div class="class">
+                <h3>Zumba Class</h3>
+                <p>Dance and workout at the same time.</p>
+            </div>
+            <div class="class">
+                <h3>Powerlifting</h3>
+                <p>For body strength like Deadlift, Bench Press, Squart.</p>
+            </div>
+            <div class="class">
+                <h3>Arm Wrestling</h3>
+                <p>Arm Wrestling for compition purpose.</p>
+            </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <section id="trainers" class="section">
+        <div class="container">
+            <h2>Our Trainers</h2>
+            <div class="trainer">
+                <img src="https://miro.medium.com/v2/resize:fit:550/0*hPnlq3pA6atjZ_0b.jpg" alt="Trainer 1">
+                <h3>Mukesh Gahlot</h3>
+                <p>Specializes in weight training.</p>
+            </div>
+            <div class="trainer">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9MmOcq5YsTCuRsufjKHn-Ur8spmMUVoB8mg&s" alt="Trainer 2">
+                <h3>Mannu Chaudhary</h3>
+                <p>Expert in weight lifting.</p>
+            </div>
+            <div class="trainer">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5OfcLKLAxwyD5S8VqicpQFL5n5syGjs1Ijw&s" alt="Trainer 3">
+                <h3>Sourav Singha Rajput 'singha'.</h3>
+                <p>Expert in weight lifting.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership" class="section">
+        <div class="container">
+            <h2>Membership Options</h2>
+            <p>Choose a membership plan that suits you best.</p>
+            <ul>
+                <li>Standard Membership - 3000/month</li>
+                <li>Premium Membership - 7000/month (includes classes)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                <p id="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+   
+
+    <script src="frontpage.js"></script>
+</body>
+</html>
